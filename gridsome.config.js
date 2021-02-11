@@ -4,6 +4,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+
 module.exports = {
   siteName: 'Sasha',
   transformers: {
@@ -35,5 +36,14 @@ module.exports = {
         publicPath: `/admin`
       }
     },
-  ]
+    {
+      use: "gridsome-plugin-tailwindcss",
+      options: {
+        tailwindConfig: './tailwind.config.js',
+        shouldImport: true,
+        shouldTimeTravel: true,
+      },
+    }
+  ],
+  
 }

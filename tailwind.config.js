@@ -4,12 +4,16 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        red:'#ee3022',
+        red:'#EE3022',
         black:'#0D131A'
       },
       fontFamily: {
-        sans:['Poppins']
-      }
+        sans:['Poppins'],
+        serif: ['Abril Fatface']
+      },
+      backgroundImage: theme => ({
+         'hammer': "url('/src/assets/hammerhand.svg')",
+        })
     },
   },
   variants: {
