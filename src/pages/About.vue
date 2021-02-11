@@ -6,7 +6,7 @@
     <p>SASHA stands for Support Against Sexual HArassment. We mean all things PoSH.</p>
     <p>At SASHA, we strive to create safe and inclusive workplaces. Not just because the law mandates it. But because every employee deserves to work at a place that makes them feel safe, secure, heard and respected.</p>
     <div class="mt-20 mb-20">
-        <g-image src="~/assets/images/stats@2x.png" alt="circle"/>
+        <g-image src="~/assets/stats.png" alt="circle"/>
       </div>
     <div class="grid grid-cols-2 gap-4">
       <div>
