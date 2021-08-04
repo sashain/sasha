@@ -16,13 +16,13 @@
         <p>What began as a mere discussion between two friends, Founder Kanti Joshi and Co-founder Sowmya Bhat, has grown into a proud organisation that exclusively provides PoSH services today. Our innovative approach focuses on effective awareness, sensitization and training. From drafting the PoSH policy to ensuring unbiased inquiries into complaints and providing timely grievance redressal, SASHA provides handholding support at every step of the way.
         </p>
       </div>
-      <div class="bg-hammer bg-circle">
+      <div class="bg-hammer">
         <g-image src="~/assets/circle.svg" alt="circle"/>
         <!-- <g-image src="~/assets/hammerhand.svg" alt="hammerhand"/> -->
       </div>
      </div>
       <div class="grid gap-2 grid-cols-2 mb-12">
-        <div class="bg-vision bg-circle">
+        <div class="bg-vision">
         <g-image class="vision-circle" src="~/assets/circle.svg" alt="circle"/>
       </div>
         <div>
@@ -33,7 +33,7 @@
         </div>  
     </div>
       <div class="grid gap-4 grid-cols-2 mb-12">
-        <div class="bg-mission bg-circle">
+        <div class="bg-mission">
         <g-image class="vision-circle" src="~/assets/circle.svg" alt=""/>
       </div>
         <div>
@@ -57,17 +57,15 @@ export default {
 </script>
 <style>
 .bg-hammer {
-  background-image: url("~@/assets/hammerhand.svg");
+
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-vision {
-  background-image: url("~@/assets/vis2x.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-mission {
-  background-image: url("~@/assets/mis2x.png");
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -12,8 +12,10 @@ module.exports = {
         serif: ['Abril Fatface']
       },
       backgroundImage: theme => ({
-         'hammer': "url('/src/assets/hammerhand.svg')",
-        })
+         'hammer': "url('/assets/hammerhand.svg')",
+          'vision': "url('/assets/vis2x.png')",
+          'mission': "url('/assets/mis2x.png')",
+        })  
     },
   },
   variants: {
