@@ -57,17 +57,17 @@ export default {
 </script>
 <style>
 .bg-hammer {
-  background-image: url("~@/assets/hammerhand.svg");
+  background-image: url("../assets/hammerhand.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-vision {
-  background-image: url("~@/assets/Vision@2x.png");
+  background-image: url("../assets/Vision@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 .bg-mission {
-  background-image: url("~@/assets/Mission@2x.png");
+  background-image: url("../assets/Mission@2x.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
