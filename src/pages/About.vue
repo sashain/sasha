@@ -6,7 +6,7 @@
     <p>SASHA stands for Support Against Sexual HArassment. We mean all things PoSH.</p>
     <p>At SASHA, we strive to create safe and inclusive workplaces. Not just because the law mandates it. But because every employee deserves to work at a place that makes them feel safe, secure, heard and respected.</p>
     <div class="mt-20 mb-20">
-        <g-image src="~/assets/stats.png" alt="circle"/>
+        <!-- <g-image src="~/assets/stats.png" alt="circle"/> -->
       </div>
     <div class="grid grid-cols-2 gap-4 mb-12">
       <div>
@@ -17,13 +17,13 @@
         </p>
       </div>
       <div class="bg-hammer">
-        <g-image src="~/assets/circle.svg" alt="circle"/>
+        <!-- <g-image src="~/assets/circle.svg" alt="circle"/> -->
         <!-- <g-image src="~/assets/hammerhand.svg" alt="hammerhand"/> -->
       </div>
      </div>
       <div class="grid gap-2 grid-cols-2 mb-12">
         <div class="bg-vision">
-        <g-image class="vision-circle" src="~/assets/circle.svg" alt="circle"/>
+        <!-- <g-image class="vision-circle" src="~/assets/circle.svg" alt="circle"/> -->
       </div>
         <div>
           <h2 class="text-red">SASHA</h2>
@@ -34,7 +34,7 @@
     </div>
       <div class="grid gap-4 grid-cols-2 mb-12">
         <div class="bg-mission">
-        <g-image class="vision-circle" src="~/assets/circle.svg" alt=""/>
+        <!-- <g-image class="vision-circle" src="~/assets/circle.svg" alt=""/> -->
       </div>
         <div>
           <h2 class="text-red">SASHA</h2>
