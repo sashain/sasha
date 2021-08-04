@@ -8,7 +8,7 @@
     <div class="mt-20 mb-20">
         <g-image src="~/assets/stats.png" alt="circle"/>
       </div>
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-2 gap-4 mb-12">
       <div>
          <h2 class="text-red">WE MEAN ALL THINGS</h2>
          <h3 class="text-black font-serif text-5xl">PoSH</h3>
@@ -20,8 +20,30 @@
         <g-image src="~/assets/circle.svg" alt="circle"/>
         <!-- <g-image src="~/assets/hammerhand.svg" alt="hammerhand"/> -->
       </div>
+     </div>
+      <div class="grid gap-2 grid-cols-2 mb-12">
+        <div class="bg-vision bg-circle">
+        <g-image class="vision-circle" src="~/assets/circle.svg" alt="circle"/>
+      </div>
+        <div>
+          <h2 class="text-red">SASHA</h2>
+          <h3 class="text-black font-serif text-5xl">Vision</h3>
+          <p class="mt-6 mb-3">SASHA’s vision is to create safe and inclusive workspaces.
+          </p>
+        </div>  
     </div>
-    
+      <div class="grid gap-4 grid-cols-2 mb-12">
+        <div class="bg-mission bg-circle">
+        <g-image class="vision-circle" src="~/assets/circle.svg" alt=""/>
+      </div>
+        <div>
+          <h2 class="text-red">SASHA</h2>
+          <h3 class="text-black font-serif text-5xl">Mission</h3>
+          <p class="mt-6 mb-3">Our mission is to ensure effective compliance by implementing the Sexual Harrasment of Women at Workplace (Prevention, Prohibition and Redressal) Act,2013.
+          </p>
+        </div>  
+    </div>
+     
     </div>
   </Layout>
 </template>
@@ -39,5 +61,18 @@ export default {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.bg-vision {
+  background-image: url("~@/assets/Vision@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bg-mission {
+  background-image: url("~@/assets/Mission@2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.vision-circle {
+  width:50%;
+  }
 
 </style>
