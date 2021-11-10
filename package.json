@@ -20,5 +20,9 @@
     "tailwindcss": "^2.0.2",
     "postcss": "^8.1.9",
     "postcss-import": "12.0.1"
+  },
+  "engines": {
+    "node": ">=14.16.1",
+    "npm": ">=6.14.12"
   }
 }
