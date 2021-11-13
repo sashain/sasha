@@ -8,6 +8,6 @@ export default [
   },
   {
     run: plugin_gridsome_plugin_tailwindcss_7,
-    options: {"tailwindConfig":"./tailwind.config.js","shouldImport":true,"shouldTimeTravel":true,"presetEnvConfig":{"stage":0,"autoprefixer":false}}
+    options: {"shouldImport":false,"shouldTimeTravel":false,"presetEnvConfig":{"stage":0,"autoprefixer":false}}
   }
 ]

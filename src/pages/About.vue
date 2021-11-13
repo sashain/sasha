@@ -45,7 +45,8 @@
       </div>
       <div class="grid grid-cols-2 gap-10">
         <div class="bg-telescope">
-          <g-image src="~/assets/circlesmall.svg"
+          <g-image class="circle-small"
+                   src="~/assets/circlesmall.svg"
                    alt="circle small" />
         </div>
         <div>
@@ -56,7 +57,8 @@
       </div>
       <div class="grid grid-cols-2 gap-10">
         <div class="bg-rocket">
-          <g-image src="~/assets/circlesmall.svg"
+          <g-image class="circle-small"
+                   src="~/assets/circlesmall.svg"
                    alt="circle small" />
         </div>
         <div>
@@ -90,5 +92,8 @@ export default {
   background-image: url("~@/assets/rocket.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.circle-small {
+  width: 50%;
 }
 </style>

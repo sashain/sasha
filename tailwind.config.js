@@ -12,9 +12,9 @@ module.exports = {
         serif: ['Abril Fatface']
       },
       backgroundImage: theme => ({
-        'hammer': "url('/src/assets/hammerhand.svg')",
-        'telephone': "url('/src/assets/telescope.svg')",
-        'rocket': "url('/src/assets/rocket.svg')",
+        'hammer': "url('/assets/hammerhand.svg')",
+        'telephone': "url('/assets/telescope.svg')",
+        'rocket': "url('/assets/rocket.svg')",
         'vision': "url('/assets/vis2x.png')",
         'mission': "url('/assets/mis2x.png')",
       })
