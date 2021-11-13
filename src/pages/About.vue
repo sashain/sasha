@@ -78,7 +78,6 @@ export default {
 </script>
 <style>
 .bg-hammer {
-  background-image: url("~@/assets/hammerhand.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }

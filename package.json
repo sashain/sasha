@@ -16,13 +16,13 @@
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^4.1.1",
+    "postcss": "^8.3.6",
+    "postcss-import": "12.0.1",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.0.2",
-    "postcss": "^8.1.9",
-    "postcss-import": "12.0.1"
+    "tailwindcss": "^2.0.2"
   },
   "engines": {
-    "node": ">=14.16.1",
-    "npm": ">=6.14.12"
+    "node": ">=14.17.0",
+    "npm": ">=6.14.6"
   }
 }

@@ -15,6 +15,8 @@ module.exports = {
         'hammer': "url('/src/assets/hammerhand.svg')",
         'telephone': "url('/src/assets/telescope.svg')",
         'rocket': "url('/src/assets/rocket.svg')",
+        'vision': "url('/assets/vis2x.png')",
+        'mission': "url('/assets/mis2x.png')",
       })
     },
   },
